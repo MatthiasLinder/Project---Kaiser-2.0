@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 14
-  productGUID: 6db8ceea4b774e24d9f14d6263b98c4c
+  productGUID: c21390a5e375ebd4f8f3266e6867f2e8
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 4
@@ -639,8 +639,8 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: f91071cc-d4bf-4cd7-a5c2-c5ba9db5c810
-  projectName: Project---Kaiser-2.0
+  cloudProjectId: f6b57f91-586f-43c0-8264-c56b11de5fa5
+  projectName: Project---Kaiser-2.0 (1)
   organizationId: rexdyd
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
