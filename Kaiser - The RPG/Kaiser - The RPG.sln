@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kaiser - The RPG", "Kaiser - The RPG.csproj", "{0E9FC817-EDC2-8996-5DDF-D95CF8C746AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kaiser - The RPG.Plugins", "Kaiser - The RPG.Plugins.csproj", "{E4DDF115-51D1-0C9C-B058-FEB3AE0F37F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kaiser - The RPG.Editor.Plugins", "Kaiser - The RPG.Editor.Plugins.csproj", "{BA8257BF-F3A6-26EE-BADD-E239A0A51DE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E9FC817-EDC2-8996-5DDF-D95CF8C746AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E9FC817-EDC2-8996-5DDF-D95CF8C746AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E9FC817-EDC2-8996-5DDF-D95CF8C746AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E9FC817-EDC2-8996-5DDF-D95CF8C746AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4DDF115-51D1-0C9C-B058-FEB3AE0F37F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4DDF115-51D1-0C9C-B058-FEB3AE0F37F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4DDF115-51D1-0C9C-B058-FEB3AE0F37F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4DDF115-51D1-0C9C-B058-FEB3AE0F37F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA8257BF-F3A6-26EE-BADD-E239A0A51DE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA8257BF-F3A6-26EE-BADD-E239A0A51DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA8257BF-F3A6-26EE-BADD-E239A0A51DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA8257BF-F3A6-26EE-BADD-E239A0A51DE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
