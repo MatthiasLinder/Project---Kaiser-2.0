@@ -19,14 +19,15 @@ public class Quest001Take : MonoBehaviour {
 
     void OnMouseOver()
     {
-        if (TheDistance <= 3)
+        if (TheDistance <= 1f)
         {
+            AttackBlocker.BlockSword = 1;
             ActionDisplay.SetActive(true);
             ActionText.SetActive(true);
         }
         if (Input.GetButtonDown("Action"))
         {
-            if (TheDistance <= 3)
+            if (TheDistance <= 1f)
             {
                 Screen.lockCursor = false;
                 Cursor.visible = true;
@@ -37,12 +38,13 @@ public class Quest001Take : MonoBehaviour {
                 ThePlayer.SetActive(false);
             }
         }
-        ActionDisplay.SetActive(false);
-        ActionText.SetActive(false);
+        //ActionDisplay.SetActive(false);
+        //ActionText.SetActive(false);
     }
 
     void OnMouseExit()
     {
+        AttackBlocker.BlockSword = 0;
         ActionDisplay.SetActive(false);
         ActionText.SetActive(false);
     }

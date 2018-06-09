@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HealthMonitor : MonoBehaviour {
 
@@ -9,26 +10,63 @@ public class HealthMonitor : MonoBehaviour {
     public GameObject Heart1;
     public GameObject Heart2;
     public GameObject Heart3;
+    public GameObject Heart4;
+    public GameObject Heart5;
 
     void Start () {
-        HealthValue = 1;
+        HealthValue = 3;
 	}
 	
 	void Update () {
-        InternalHealth = HealthValue;
+        InternalHealth  =  HealthValue;
 
-        if(InternalHealth == 1)
+
+        if (HealthValue >= 1)
         {
             Heart1.SetActive(true);
         }
-        if (InternalHealth == 2)
+        if (HealthValue >= 2)
         {
             Heart2.SetActive(true);
         }
-        if (InternalHealth == 3)
+        if (HealthValue >= 3)
         {
             Heart3.SetActive(true);
         }
+        if (HealthValue >= 4)
+        {
+            Heart4.SetActive(true);
+        }
+        if (HealthValue >= 5)
+        {
+            Heart5.SetActive(true);
+        }
 
+        if (HealthValue < 1)
+        {
+            Heart1.SetActive(false);
+        }
+        if (HealthValue < 2)
+        {
+            Heart2.SetActive(false);
+        }
+        if (HealthValue < 3)
+        {
+            Heart3.SetActive(false);
+        }
+        if (HealthValue < 4)
+        {
+            Heart4.SetActive(false);
+        }
+        if (HealthValue < 5)
+        {
+            Heart5.SetActive(false);
+        }
+
+
+        if(HealthValue < 1)
+        {
+            SceneManager.LoadScene(2);
+        }
     }
 }

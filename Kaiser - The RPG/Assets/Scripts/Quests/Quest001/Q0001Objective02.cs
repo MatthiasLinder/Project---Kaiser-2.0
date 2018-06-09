@@ -11,6 +11,7 @@ public class Q0001Objective02 : MonoBehaviour {
     public GameObject ActionText;
     public GameObject TheObjective;
     public int CloseObjective;
+    public GameObject TakeSword;
 
 	void Update ()
     {
@@ -43,6 +44,7 @@ public class Q0001Objective02 : MonoBehaviour {
             {
                 this.GetComponent<BoxCollider>().enabled = false;
                 TreasureChest.GetComponent<Animation>().Play("OpenChest");
+                TakeSword.SetActive(true);
                 CloseObjective = 3;
                 ActionText.SetActive(false);
                 ActionText.SetActive(false);

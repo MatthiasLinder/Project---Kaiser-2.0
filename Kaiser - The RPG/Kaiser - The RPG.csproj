@@ -330,14 +330,27 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Restart\Restart.cs" />
+    <Compile Include="Assets\Scripts\AI\SpiderAI.cs" />
+    <Compile Include="Assets\Scripts\AttackBlocker.cs" />
+    <Compile Include="Assets\Scripts\Cutscenes\Scene01.cs" />
+    <Compile Include="Assets\Scripts\Enemies\InflictDamage.cs" />
+    <Compile Include="Assets\Scripts\Enemies\SpiderEnemy.cs" />
+    <Compile Include="Assets\Scripts\GlobalEXP.cs" />
     <Compile Include="Assets\Scripts\HealthMonitor.cs" />
     <Compile Include="Assets\Scripts\HeartCollect.cs" />
+    <Compile Include="Assets\Scripts\InitializePointer.cs" />
     <Compile Include="Assets\Scripts\PlayerCasting.cs" />
+    <Compile Include="Assets\Scripts\Pointer.cs" />
     <Compile Include="Assets\Scripts\QuestManager.cs" />
     <Compile Include="Assets\Scripts\Quests\Quest001\Q0001Objective02.cs" />
+    <Compile Include="Assets\Scripts\Quests\Quest001\Q0001Objective03.cs" />
     <Compile Include="Assets\Scripts\Quests\Quest001\Q001Objective1.cs" />
     <Compile Include="Assets\Scripts\Quests\Quest001Buttons.cs" />
+    <Compile Include="Assets\Scripts\Quests\Quest001Complete1.cs" />
     <Compile Include="Assets\Scripts\Quests\Quest001Take.cs" />
+    <Compile Include="Assets\Scripts\SwingSword.cs" />
+    <Compile Include="Assets\Start Screen\StartTheGame.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />

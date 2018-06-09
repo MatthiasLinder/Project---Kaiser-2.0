@@ -1,0 +1,22 @@
+Projekti algne eesmärk : Teha 3D Strateegia mäng
+
+Lõpptulemus : 3D RPG mäng, kuna Strateegia oleks võtnud
+liiga kaua aega tegemiseks.
+
+Mängu Juhised:
+1. Alusta mängu, mängu alguses on sul peakohal objekt, mille ümar
+osa näitab sinu ülesande sihtpunkti.
+2. Tahvli juures tuleb vajutada E nuppu ja vastu võtta seal
+antud ülesanne.
+3. Tuleb minna noole/Cursori suunas ja minna metsa, kus on kirst.
+4. Teha lahti Kirst ja mõõk kätte võtta. Mõlemat teha E tähega, kui
+ekraanil nii öeldakse. (Mõõka on veidi raske võtta, aga seda saab
+teha)
+5. Tappa ämblikuid, nool näitab Emaämbliku poole.
+6. Emaämblikut tappa ei saa, surma saades sind viiakse
+lõppkaadrisse, kus sa saad mängu uuesti alustada.
+
+
+NB : Enamus Skriptid(C# koodid) saab leida:
+
+Kaiser-TheRPG / Assets / Scripts
