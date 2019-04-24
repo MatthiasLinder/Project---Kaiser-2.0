@@ -31,10 +31,13 @@ public class Quest001Take : MonoBehaviour {
             {
                 Screen.lockCursor = false;
                 Cursor.visible = true;
+
                 ActionDisplay.SetActive(false);
                 ActionText.SetActive(false);
+
                 UIQuest.SetActive(true);
                 NoticeCam.SetActive(true);
+
                 ThePlayer.SetActive(false);
             }
         }
